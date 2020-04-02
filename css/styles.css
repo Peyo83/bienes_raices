@@ -1,3 +1,38 @@
-h1 {
-    color: blue;
+
+/*Globales*/
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/*header*/
+.site-header.inicio{
+    background-image: url(../img/header.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    min-height: 300px;
+}
+
+.barra{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+
+/*navegacion*/
+.navegacion a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+.navegacion a:hover{
+    color: #71b100;
+}
+
+.navegacion a:last-of-type{
+    margin-right: 0;
 }
